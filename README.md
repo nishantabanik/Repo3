@@ -1,1 +1,1 @@
-# sonarcloud-provider
+# terraform-sonarcloud-provider
