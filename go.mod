@@ -1,4 +1,4 @@
-module github.com/kriyaanshtechnology/terraform-sonarcloud-provider
+module github.com/kriyaanshtechnology/terraform-provider-sonarcloud
 
 go 1.15
 

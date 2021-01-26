@@ -4,9 +4,9 @@ SRC=$(shell find . -name '*.go')
 
 .PHONY: all vet build test
 
-all: fmt vet build
+all: build
 
 build:
-	go build -a -tags netgo -o terraform-provider-sonarcloud
+	go build -a -o terraform-provider-sonarcloud
 	mkdir -p ~/.terraform.d/plugins/github.com/jkumar19/sonarcloud/0.1/linux_amd64/
 	cp terraform-provider-sonarcloud ~/.terraform.d/plugins/github.com/jkumar19/sonarcloud/0.1/linux_amd64/
