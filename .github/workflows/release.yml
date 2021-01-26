@@ -15,10 +15,10 @@ jobs:
       - name: install go package
         uses: actions/setup-go@v2
         with:
-          go-version: 1.15
+          go-version: 1.15.5
       - name: import GPG key
         id: import_gpg
-        uses: paultyng/ghaction-import-gpg@v3.0.2
+        uses:  crazy-max/ghaction-import-gpg@v3.0.2
         env:
           GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
           PASSPHRASE: ${{ secrets.PASSPHRASE }}
