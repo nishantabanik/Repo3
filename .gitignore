@@ -13,3 +13,10 @@
 
 # Dependency directories (remove the comment below to include it)
 # vendor/
+#
+#
+terraform-provider-sonarcloud
+.terraform**
+terraform.tfstate
+crash.log
+terraform.tfstate.backup
