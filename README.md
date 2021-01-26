@@ -1,15 +1,5 @@
-# terraform-sonarcloud
+# terraform-provider-sonarcloud
 Terraform provider for managing SonarCloud configuration
-
-## Installation
-To install this provider based on terraform version follow under mentioned steps:
-1. Terraform Version <= 0.12
-2. Terraform Version >= 0.13
-
-## Usage
-[example](example) contains a sample code of how to use this provider.
-
-Consult the docs below for more details.
 
 ## Docs
 [Provider configuration](docs/provider.md)
