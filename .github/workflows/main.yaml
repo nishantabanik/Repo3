@@ -13,12 +13,6 @@ jobs:
     runs-on: ubuntu-latest
     name: sonarcloud_terraform_provider
     steps:
-      - name: import GPG key
-        id: import_gpg
-        uses: paultyng/ghaction-import-gpg@v2.1.0
-        env:
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
-          PASSPHRASE: ${{ secrets.PASSPHRASE }}
       - name: install go binary
         uses: actions/setup-go@v2.1.3
         with:
